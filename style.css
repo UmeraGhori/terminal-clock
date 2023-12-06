@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Center items vertically */
+    height: 100vh;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: #ffffff;
+  }
+  
+  .heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .clock-container {
+    display: flex;
+    font-family: 'Courier New', monospace;
+  }
+  
+  .block {
+    padding: 10px;
+    margin: 5px;
+    background-color: #2a3f5f;
+    border-radius: 5px;
+    font-size: 2em;
+  }
+  
+  #separator {
+    background-color: transparent;
+  }
+  
